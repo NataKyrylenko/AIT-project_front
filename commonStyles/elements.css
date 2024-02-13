@@ -97,7 +97,6 @@ footer {
   width: 100%;
 }
 
-
 /*--Modalka--*/
 
 
@@ -146,6 +145,10 @@ footer {
 
 .card-film-info {
   font-size: 14px;
+}
+.card-film-title{
+  font-size: 26px;
+
 }
 
 .card-film_img-container {
