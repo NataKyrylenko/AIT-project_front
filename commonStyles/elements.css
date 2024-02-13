@@ -3,6 +3,7 @@ header {
   align-items: center;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   background-color: rgba(226, 228, 230, .9);
   padding: 20px;
   border-radius: 40px;
@@ -55,7 +56,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #ffffffed;
   border: 1px solid #000;
   width: 70%;
   max-width: 400px;
@@ -67,6 +68,7 @@ footer {
   transform: translate(-50%, -200%);
   -webkit-transition: -webkit-transform 200ms ease-out;
   transition: transform 200ms ease-out;
+  
 }
 
 .modal:before {
@@ -157,7 +159,7 @@ footer {
 
 .card-film-info_container {
   transform: perspective(600px) rotateY(180deg);
-  background-color: rgb(137, 141, 145);
+  background-color: rgb(212, 212, 213);
   position: absolute;
   top: 0;
   left: 0;
