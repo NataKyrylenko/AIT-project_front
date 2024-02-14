@@ -43,6 +43,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   background-color: rgb(157, 157, 158);
   padding: 20px;
@@ -115,6 +116,7 @@ footer {
 .wrapper-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-film {
